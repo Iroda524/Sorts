@@ -11,11 +11,11 @@ body{
 }
 
 .container{
-    width: 550px;
+    width: 520px;
     height: 100px;
     position: absolute;
     top: 80px;
-    left: 8vw;
+    left: 6vw;
     border: 2px solid #dedede;
     border-radius: 6px;
     background-color: white;
@@ -25,7 +25,7 @@ body{
 .sort{
     display: inline-block;
     background-color: #5796ff;
-    margin: 25px 30px;
+    margin: 20px 25px;
     border-radius: 5px;
 }
 
@@ -46,4 +46,10 @@ body{
 
 .br{
     border-radius: 3px 0 0 3px;
+}
+
+select{
+    width: 480px;
+    border: 3px solid #5796ff  !important;
+    border-radius: 6px;
 }
